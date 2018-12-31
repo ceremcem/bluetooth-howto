@@ -17,6 +17,16 @@ On Linux:
 	Hard blocked: no
 ```
 
+* list available Bluetooth interfaces:
+
+```
+hcitool dev
+Devices:
+	hci0	XX:XX:XX:XX:XX:XX
+```
+
+> **TROUBLESHOOTING**: If there is no devices listed above, try restarting your computer. 
+> This usually happens after resuming from a suspension.
 
 * scan devices nearby:
 
