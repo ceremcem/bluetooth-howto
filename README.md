@@ -26,3 +26,15 @@ Scanning ...
 	28:A4:ED:35:B1:67	Foo
 ```
 
+# Pairing 
+
+(see https://raspberrypi.stackexchange.com/a/53456/24257)
+
+```
+bluetoothctl
+scan on 
+pair XX:XX:XX:XX:XX:XX
+trust XX:XX:XX:XX:XX:XX
+quit
+```
+
