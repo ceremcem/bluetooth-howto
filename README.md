@@ -32,9 +32,9 @@ Scanning ...
 
 ```
 bluetoothctl
-scan on 
-pair XX:XX:XX:XX:XX:XX
-trust XX:XX:XX:XX:XX:XX
-quit
+[bluetooth]# scan on 
+[bluetooth]# pair XX:XX:XX:XX:XX:XX
+[bluetooth]# trust XX:XX:XX:XX:XX:XX
+[bluetooth]# quit
 ```
 
